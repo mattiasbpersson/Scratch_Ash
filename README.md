@@ -38,6 +38,31 @@ Vi gör så att figuren ser ut att gå över skärmen
 ![Ash animate](images/ash_animate2new.png "Ash animate")
 
 ## Kasta besvärjelse
+### Förberedelser
+Flytta in den besvärlse du vill använda (hjärtat eller stjärnan) från ryggsäcken.
+
+
+###Kasta besvärjelse version 1
+När spelar trycker space så ska besvärlsen kastas mot muspekaren. Då besvärjelsen träffar kanten ska den försvinna
+Se till att besvärjelsen alltid startar på samma plats som Ash och att den är gömd:
+
+![Spell version 1](images/spell_version1.png "Spell version 1")
+
+Problem: Det går bara att kasta en i taget!
+
+###Kasta besvärjelse version 2
+När spelar trycker space så ska en klon skapas av spriten.
+
+![Spell version 2](images/spell_version2.png "Spell version 2")
+
+Problem: När vi trycker på space flera ggr blir det för många besvärjelser.
+
+###Kasta besvärjelse version 3
+När vi trycker space, kolla om vi är en klon innan vi skapar en klon.
+
+![Spell version 3](images/spell_version3.png "Spell version 3")
+
+
 
 
 
