@@ -19,7 +19,7 @@ Grafik: https://scratch.mit.edu/users/MaEk_Animations/
 
 ### Lägg till Ash
 * Flytta in Ash från ryggsäcken till ditt projekt
-* Ställ Ash på marken (dra ner Ash tills hen står på marken och titta vilken y-koordinat som då står):
+* Ställ Ash på marken (dra ner Ash tills hen står på marken och titta vilken y-koordinat som då anges i fönstret):
 
 ![Ash ground](images/ash_ground.png "Ash ground")
 
