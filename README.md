@@ -21,21 +21,21 @@ Grafik: https://scratch.mit.edu/users/MaEk_Animations/
 * Flytta in Ash från ryggsäcken till ditt projekt
 * Ställ Ash på marken (dra ner Ash tills hen står på marken och titta vilken y-koordinat som då anges i fönstret):
 
-![Ash ground](images/ash_ground.png "Ash ground")
+![Ash ground](images/ash_groundnew.png "Ash ground")
 
 ### Få Ash att gå vänster och höger
 Vi gör så att Ash kan röra sig över skärmen.
 
-![Ash walk](images/ash_walk.png "Ash walk")
+![Ash walk](images/ash_walknew.png "Ash walk")
 
 Finns det andra sätt man kunde ha löst det på? Vad hade hänt om man gjort så här:
 
-![Ash walk again](images/ash_walk2.png "Ash walk again")
+![Ash walk again](images/ash_walk2new.png "Ash walk again")
 
 ### Animera Ash
-Vi gör så att figuren ser ut att gå hen rör sig över skärmen 
+Vi gör så att figuren ser ut att gå över skärmen 
 
-![Ash animate](images/ash_animate.png "Ash animate")
+![Ash animate](images/ash_animate2new.png "Ash animate")
 
 ## Kasta besvärjelse
 
