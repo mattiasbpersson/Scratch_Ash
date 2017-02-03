@@ -62,6 +62,48 @@ När vi trycker space, kolla om vi är en klon innan vi skapar en klon.
 
 ![Spell version 3](images/spell_version3.png "Spell version 3")
 
+## Moorgerna kommer
+### Förberedelser
+Lägg in mark-moorgen i ditt projekt. Den som ser ut att ligga på marken.
+
+Se till att det skapas en ny klon  vid slumpmässigt tillfälle
+![Moorg Random](images/moorg_random.png "Moorg random")
+
+### Moorg kommer version 1
+* När jag startar som en klon. 
+* Visa mig och lägg mig på i kanten på skärmen i höjd med marken. 
+* Se till så att jag pekar in mot mitten av skärmen.
+* Tills jag träffar Ash eller jag blir träffad av ett hjärta - repetera:
+  * Flytta 10 steg i den riktning du pekar (mot mitten)
+  * Repetera 4 ggr 
+    * Nästa kostym
+    * Vänta kort stund
+  * Om vi träffar kanten, byt riktning
+* Ta bort klonen
+  
+![Moorg walk 1](images/moorg_move_version1.png "Moorg walk 1")
+
+### Moorg kommer version 2
+
+* Välj ett slumpmässigt tal mellan 1 och 2. 
+* Om det är 1, gör som vi gjorde innan.
+* Om det är 2, se till att jag hamnar vid andra kanten och pekar mot mitten.
+
+![Moorg walk 2](images/moorg_move_version2.png "Moorg walk 2")
+
+
+### Moorg kommer version 3 
+DRY - Don't repeat yourselves. (Refaktorering)
+
+Flytta de delar som är lika i ett eget block.
+
+* Skapa ett nytt block som heter MooveMoorg
+* Flytta in allt från "repeat until"/"repetera till" i definitionen av det nya blocket.
+* Lägg till det nya blocket.
+
+![Moorg walk block](images/moorg_move_block.png "Moorg walk block")
+
+![Moorg walk 3](images/moorg_move_version3.png "Moorg walk 3")
 
 
 
