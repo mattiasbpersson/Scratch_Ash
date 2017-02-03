@@ -18,40 +18,94 @@ Grafik: https://scratch.mit.edu/users/MaEk_Animations/
 ## Ash
 
 ### Lägg till Ash
-* Flytta in Ash från ryggsäcken till ditt projekt
-* Ställ Ash på marken (dra ner Ash tills hen står på marken och titta vilken y-koordinat som då anges i fönstret):
+Vi vill att Ash ska stå på marken då vi startar.
+
+Flytta in Ash från ryggsäcken till ditt projekt
+
+Ställ Ash på marken (dra ner Ash tills hen står på marken och titta vilken y-koordinat som då anges i fönstret):
+
+* När flaggen trycks
+* Gå till mitt på skärmen och i höjd med gräset
+* Gör spiten 2 ggr så stor
+* Vänd spriten till höger
 
 ![Ash ground](images/ash_groundnew.png "Ash ground")
 
 ### Få Ash att gå vänster och höger
 Vi gör så att Ash kan röra sig över skärmen.
 
-![Ash walk](images/ash_walknew.png "Ash walk")
+* För alltid
+  * Om man trycker på d-tangenten
+    * Vänd dig till höger
+    * Repetera tills man inte trycker d-tangenten
+      * Gå 4 steg i riktningen (höger)
+  * Om man trycker på a-tangenten
+    * Samma som ovan, fast vänster
 
-Finns det andra sätt man kunde ha löst det på? Vad hade hänt om man gjort så här:
+![Ash walk](images/ash_walk.png "Ash walk")
 
-![Ash walk again](images/ash_walk2new.png "Ash walk again")
+Vad hade hänt om man gjort så här:
+
+![Ash walk](images/ash_walk2new.png "Ash walk")
 
 ### Animera Ash
-Vi gör så att figuren ser ut att gå över skärmen 
+Vi gör så att Ash ser ut att gå över skärmen 
 
-![Ash animate](images/ash_animate2new.png "Ash animate")
+* När flaggan trycks
+* För alltid
+  * Om man trycker på d-tangenten
+    * Repetera tills man inte trycker d-tangenten
+      * Vänta en kort stund
+      * Ta nästa kostym
+  * Om man trycker på a-tangenten
+    * Samma som ovan
+  * Byt till kostymen "stå"
+  
+![Ash walk](images/ash_walk_version1.png "Ash walk")
+
+Vad blir skillnaden om man gör så här:
+
+![Ash walk](images/ash_walk_version2.png "Ash walk")
 
 ## Kasta besvärjelse
 ### Förberedelser
-Flytta in den besvärlse du vill använda (hjärtat eller stjärnan) från ryggsäcken.
+Flytta in den besvärjelse du vill använda (hjärtat eller stjärnan) från ryggsäcken.
 
 
 ###Kasta besvärjelse version 1
-När spelar trycker space så ska besvärlsen kastas mot muspekaren. Då besvärjelsen träffar kanten ska den försvinna
+När spelar trycker space så ska besvärjelse kastas mot muspekaren. Då besvärjelsen träffar kanten ska den försvinna
 Se till att besvärjelsen alltid startar på samma plats som Ash och att den är gömd:
+
+* När man trycker på flaggan, göm mig
+* Då space-tangenten trycks ner
+  * Flytta mig dit där Ash står
+  * Visa mig själv
+  * Vrid mig så jag pekar mot muspekaren
+  * Repetera tills jag träffar en kant
+    * Flytta 10 steg i den riktning jag pekar åt
+  * Göm mig då jag har träffat en kant
 
 ![Spell version 1](images/spell_version1.png "Spell version 1")
 
-Problem: Det går bara att kasta en i taget!
+Problem: Det går bara att kasta en besvärjelse i taget!
 
 ###Kasta besvärjelse version 2
 När spelar trycker space så ska en klon skapas av spriten.
+
+* När space tangenten trycks ner
+* Skapa en klon av mig själv
+* Flytta mig till dit där Ash står
+
+
+* Då jag startar som en klon
+* Visa mig själv
+* Repetera tills jag träffar kanten
+  * Flytta 10 steg i den riktning jag pekar åt
+* Ta bort mig själv (klonene)
+
+
+* När man trycker på flaggan
+* Ta bort alla kloner (rensa)
 
 ![Spell version 2](images/spell_version2.png "Spell version 2")
 
@@ -60,6 +114,22 @@ Problem: När vi trycker på space flera ggr blir det för många besvärjelser.
 ###Kasta besvärjelse version 3
 När vi trycker space, kolla om vi är en klon innan vi skapar en klon.
 
+Skapa en variabel som heter "is clone". Som gäller för bara denna sprite.
+
+* När man trycker på flaggan
+* Sätt variablen "is clone" till "no"
+
+
+* När man trycker på spange-tangenten
+* Om variablen "is clone" är "no"
+  * Samma som innan
+  
+  
+* När jag startar som en klon
+* Sätt variablen "is clone" till "yes"
+* Samma som innan
+
+
 ![Spell version 3](images/spell_version3.png "Spell version 3")
 
 ## Moorgerna kommer
@@ -67,9 +137,18 @@ När vi trycker space, kolla om vi är en klon innan vi skapar en klon.
 Lägg in mark-moorgen i ditt projekt. Den som ser ut att ligga på marken.
 
 Se till att det skapas en ny klon  vid slumpmässigt tillfälle
+
+* När man trycker på flaggan
+* Göm mig själv
+* För alltid
+  * Vänta ett slumptal antal sekunder (1-10)
+  * Skapa en klon av mig själv
+
 ![Moorg Random](images/moorg_random.png "Moorg random")
 
 ### Moorg kommer version 1
+Se till att Moorger kommer och attackerar.
+
 * När jag startar som en klon. 
 * Visa mig och lägg mig på i kanten på skärmen i höjd med marken. 
 * Se till så att jag pekar in mot mitten av skärmen.
@@ -84,6 +163,7 @@ Se till att det skapas en ny klon  vid slumpmässigt tillfälle
 ![Moorg walk 1](images/moorg_move_version1.png "Moorg walk 1")
 
 ### Moorg kommer version 2
+Vi vill att det ska komma Moorger från både höger och vänster.
 
 * Välj ett slumpmässigt tal mellan 1 och 2. 
 * Om det är 1, gör som vi gjorde innan.
@@ -95,6 +175,8 @@ Se till att det skapas en ny klon  vid slumpmässigt tillfälle
 ### Moorg kommer version 3 
 DRY - Don't repeat yourselves. (Refaktorering)
 
+Har man samma kod på flera ställen är det lättare att göra fel.
+
 Flytta de delar som är lika i ett eget block.
 
 * Skapa ett nytt block som heter MooveMoorg
@@ -104,6 +186,37 @@ Flytta de delar som är lika i ett eget block.
 ![Moorg walk block](images/moorg_move_block.png "Moorg walk block")
 
 ![Moorg walk 3](images/moorg_move_version3.png "Moorg walk 3")
+
+## Lägg till livspoäng
+Vi vill att spelat slutar om man träffas av 3 Moorger.
+
+I Ash spriten, skapa en ny variabel som heter HP (för alla sprites).
+
+* När vi trycker på flaggan
+* Sätt HP värdet till 3
+* För alltid:
+  * Om vi rör vid MoorgWalk-spriten
+    * Ändra HP värdet med -1
+    * Vänta 0.5 sek
+  * Om HP är noll
+    * För alltid
+    * Stoppa allt
+
+![Moorg walk 3](images/ash_hp_version2.png "Moorg walk 3")
+
+## Lägg till gravitation
+Vi vill göra så att Ash ska kunna hoppa. 
+Samt att hans besvärjelser ska falla mot marken då de kastas.
+ 
+### Gravitation
+ 
+### Extra saker
+* En "Game Over" skärm
+* Moorgerna vänder om de träffas av Love.
+* Flygande Moorger
+* Kasta olika spells.
+ 
+
 
 
 
