@@ -134,14 +134,14 @@ Skapa en variabel som heter "is clone". Som gäller för bara denna sprite.
 
 ## Moorgerna kommer
 ### Förberedelser
-Lägg in mark-moorgen i ditt projekt. Den som ser ut att ligga på marken.
+Lägg in Moorgen i ditt projekt. Den som ser ut att ligga på marken.
 
-Visa sen en moorg så du ser hur den ser ut och att den rör sig som den ska. 
+Visa sen en Moorg så du ser hur den ser ut och att den rör sig som den ska. 
 Det här är i princip samma sak som vi gjorde då vi la till Ash
 
 ![Moorg Start](images/moorg_start.png "Moorg start")
 
-### Slumpmässig moorg
+### Slumpmässig Moorg
 Se till att det skapas en ny klon  vid slumpmässigt tillfälle
 
 * När man trycker på flaggan
@@ -153,7 +153,7 @@ Se till att det skapas en ny klon  vid slumpmässigt tillfälle
 ![Moorg Random](images/moorg_random.png "Moorg random")
 
 ### Moorg kommer version 1
-Se till att moorger kommer från vänster och attackerar.
+Se till att Moorger kommer från vänster och attackerar.
 
 * När jag startar som en klon. 
 * Visa mig och lägg mig på i kanten på skärmen i höjd med marken. 
