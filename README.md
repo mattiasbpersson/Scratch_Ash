@@ -136,6 +136,12 @@ Skapa en variabel som heter "is clone". Som gäller för bara denna sprite.
 ### Förberedelser
 Lägg in mark-moorgen i ditt projekt. Den som ser ut att ligga på marken.
 
+Visa sen en moorg så du ser hur den ser ut och att den rör sig som den ska. 
+Det här är i princip samma sak som vi gjorde då vi la till Ash
+
+![Moorg Start](images/moorg_start.png "Moorg start")
+
+### Slumpmässig moorg
 Se till att det skapas en ny klon  vid slumpmässigt tillfälle
 
 * När man trycker på flaggan
@@ -147,7 +153,7 @@ Se till att det skapas en ny klon  vid slumpmässigt tillfälle
 ![Moorg Random](images/moorg_random.png "Moorg random")
 
 ### Moorg kommer version 1
-Se till att Moorger kommer och attackerar.
+Se till att moorger kommer från vänster och attackerar.
 
 * När jag startar som en klon. 
 * Visa mig och lägg mig på i kanten på skärmen i höjd med marken. 
@@ -172,7 +178,7 @@ Vi vill att det ska komma Moorger från både höger och vänster.
 ![Moorg walk 2](images/moorg_move_version2.png "Moorg walk 2")
 
 
-### Moorg kommer version 3 
+### Moorg kommer version 3
 DRY - Don't repeat yourselves. (Refaktorering)
 
 Har man samma kod på flera ställen är det lättare att göra fel.
@@ -186,6 +192,33 @@ Flytta de delar som är lika i ett eget block.
 ![Moorg walk block](images/moorg_move_block.png "Moorg walk block")
 
 ![Moorg walk 3](images/moorg_move_version3.png "Moorg walk 3")
+
+## Lägg till gravitation
+Vi vill göra så att Ash ska kunna hoppa. 
+
+
+###Gravitations block
+Skapa en ny variabel som heter "speedy"
+
+* När flaggan trycks
+* För alltid
+  * Ändry y-positionen med speedy
+  * Minska hastigheten med 1
+  * Repetera tills vi inte rör vid marken
+    * Öka y-värdet med 1
+    * Sätt hastigheten till 0
+
+![Gravitation](images/block_gravitation.png "Gravitation")
+ 
+Ändra start positionen för Ash till 0,0. Vad händer? 
+ 
+###Hoppa
+
+* När w-tangenten trycks
+* Sätt hastighen (speedy) till 12
+
+![Ash hoppa](images/ash_jump.png "Ash hoppa")
+ 
 
 ## Lägg till livspoäng
 Vi vill att spelat slutar om man träffas av 3 Moorger.
@@ -203,18 +236,17 @@ I Ash spriten, skapa en ny variabel som heter HP (för alla sprites).
     * Stoppa allt
 
 ![Moorg walk 3](images/ash_hp_version2.png "Moorg walk 3")
-
-## Lägg till gravitation
-Vi vill göra så att Ash ska kunna hoppa. 
-Samt att hans besvärjelser ska falla mot marken då de kastas.
- 
-### Gravitation
  
 ### Extra saker
 * En "Game Over" skärm
-* Moorgerna vänder om de träffas av Love.
 * Flygande Moorger
 * Kasta olika spells.
+* Ash besvärjelser ska falla mot marken då de kastas.
+* Ändra så att man inte kan hoppa hela tiden (kanske bara dubbel-hopp).
+* Moorgerna vänder om de träffas av Love.
+
+
+
  
 
 
