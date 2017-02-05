@@ -8,6 +8,8 @@ Utveckling: https://scratch.mit.edu/users/Ratcher05/
 
 Grafik: https://scratch.mit.edu/users/MaEk_Animations/
 
+[Presentation (Google slides)](https://docs.google.com/presentation/d/1KdHW2BOpMJrAIUv35WkUxIuZuJFrJRmMmdAZMrkasVM/edit?usp=sharing)
+
 #### Innehållsförteckning  
 [Förberedelser](#headers)  
 [Ash](#emphasis)  
@@ -60,8 +62,6 @@ Vad hade hänt om man gjort så här:
 
 ### Animera Ash
 Vi gör så att Ash ser ut att gå över skärmen 
-
-Exempel på olika sprite animationer: https://scratch.mit.edu/projects/140500346/
 
 * När flaggan trycks
 * För alltid
