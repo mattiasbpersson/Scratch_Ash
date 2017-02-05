@@ -119,7 +119,7 @@ När spelar trycker mellanslag så ska en klon skapas av spriten.
 * När man trycker på flaggan
 * Ta bort alla kloner (rensa)
 
-![Spell version 2](images/spell_version2.png "Spell version 2")
+![Spell version 2](images/spell_version2_new.png "Spell version 2")
 
 Problem: När vi trycker på mellanslag flera ggr blir det för många besvärjelser.
 
@@ -142,7 +142,7 @@ Skapa en variabel som heter "is clone". Som gäller för bara denna sprite.
 * Samma som innan
 
 
-![Spell version 3](images/spell_version3.png "Spell version 3")
+![Spell version 3](images/spell_version3_new.png "Spell version 3")
 
 ## Moorgerna kommer
 ### Förberedelser
