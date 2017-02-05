@@ -11,12 +11,12 @@ Grafik: https://scratch.mit.edu/users/MaEk_Animations/
 [Presentation (Google slides)](https://docs.google.com/presentation/d/1KdHW2BOpMJrAIUv35WkUxIuZuJFrJRmMmdAZMrkasVM/edit?usp=sharing)
 
 #### Innehållsförteckning  
-[Förberedelser](#headers)  
-[Ash](#emphasis)  
-[Kasta besvärjelse](#emphasis)  
-[Moorgerna kommer](#emphasis)  
-[Gravitation](#emphasis)  
-[Extra saker](#emphasis)  
+[Förberedelser](#förberedelser)  
+[Ash](#ash)  
+[Kasta besvärjelse](#kasta_besvärjelse)  
+[Moorgerna kommer](#moorgerna_kommer)  
+[Gravitation](#gravitation)  
+[Extra saker](#extra_saker)  
 
 ## Förberedelser
 * Hitta igen följande projekt och spara ner alla sprites i din ryggsäck: https://scratch.mit.edu/projects/142913300/
