@@ -1,38 +1,48 @@
 # Scratch - trollkarlen Ash
 
-Hjälp trollkarlen Ash i kampen mot dom onda Moorgerna. Skapa egna trollformler och visa hur man undviker fiender. 
+Hjälp trollkarlen Ash i kampen mot dom onda Moorgerna. 
+Skapa egna trollformler och visa Ash hur man undviker fiender. 
 Vi lär oss mer om animation, gravitation, kloner och variabler.
 
 Utveckling: https://scratch.mit.edu/users/Ratcher05/
 
 Grafik: https://scratch.mit.edu/users/MaEk_Animations/
 
+#### Innehållsförteckning  
+[Förberedelser](#headers)  
+[Ash](#emphasis)  
+[Kasta besvärjelse](#emphasis)  
+[Moorgerna kommer](#emphasis)  
+[Gravitation](#emphasis)  
+[Extra saker](#emphasis)  
+
 ## Förberedelser
-* Hitta igen följande project och spara ner alla sprites i din ryggsäck: https://scratch.mit.edu/projects/142913300/
+* Hitta igen följande projekt och spara ner alla sprites i din ryggsäck: https://scratch.mit.edu/projects/142913300/
 * Skapa ett nytt projekt. 
 * Rensa bort katten
-* Skapa en bakgrund som är lik nedanstående. Det viktiga är att marken är i en färg och himlen en annan:
+* Skapa en bakgrund som är lik nedanstående. 
+Det viktiga är att marken är i en färg och himlen en annan:
 
 ![Background](images/background.png "Bakgrund")
 
 ## Ash
 
 ### Lägg till Ash
-Vi vill att Ash ska stå på marken då vi startar.
+Vi vill att Ash ska stå på marken då vi startar. Fötterna ska röra översidan av marken.
 
 Flytta in Ash från ryggsäcken till ditt projekt
 
 Ställ Ash på marken (dra ner Ash tills hen står på marken och titta vilken y-koordinat som då anges i fönstret):
 
 * När flaggen trycks
-* Gå till mitt på skärmen och i höjd med gräset
-* Gör spiten 2 ggr så stor
+* Gå till mitt på skärmen och i höjd med gräset (koordinaterna du såg innan)
+* Gör spiten 2 ggr så stor (kanske inte behövs)
 * Vänd spriten till höger
 
 ![Ash ground](images/ash_groundnew.png "Ash ground")
 
-### Få Ash att gå vänster och höger
-Vi gör så att Ash kan röra sig över skärmen.
+### Få Ash att glida vänster och höger
+Vi gör så att Ash kan glida över skärmen.
 
 * För alltid
   * Om man trycker på d-tangenten
@@ -50,6 +60,8 @@ Vad hade hänt om man gjort så här:
 
 ### Animera Ash
 Vi gör så att Ash ser ut att gå över skärmen 
+
+Exempel på olika sprite animationer: https://scratch.mit.edu/projects/140500346/
 
 * När flaggan trycks
 * För alltid
@@ -73,11 +85,11 @@ Flytta in den besvärjelse du vill använda (hjärtat eller stjärnan) från ryg
 
 
 ###Kasta besvärjelse version 1
-När spelar trycker space så ska besvärjelse kastas mot muspekaren. Då besvärjelsen träffar kanten ska den försvinna
+När spelar trycker mellanslag så ska besvärjelse kastas mot muspekaren. Då besvärjelsen träffar kanten ska den försvinna
 Se till att besvärjelsen alltid startar på samma plats som Ash och att den är gömd:
 
 * När man trycker på flaggan, göm mig
-* Då space-tangenten trycks ner
+* Då mellanslag trycks ner
   * Flytta mig dit där Ash står
   * Visa mig själv
   * Vrid mig så jag pekar mot muspekaren
@@ -90,9 +102,9 @@ Se till att besvärjelsen alltid startar på samma plats som Ash och att den är
 Problem: Det går bara att kasta en besvärjelse i taget!
 
 ###Kasta besvärjelse version 2
-När spelar trycker space så ska en klon skapas av spriten.
+När spelar trycker mellanslag så ska en klon skapas av spriten.
 
-* När space tangenten trycks ner
+* När mellanslag tangenten trycks ner
 * Skapa en klon av mig själv
 * Flytta mig till dit där Ash står
 
@@ -109,10 +121,10 @@ När spelar trycker space så ska en klon skapas av spriten.
 
 ![Spell version 2](images/spell_version2.png "Spell version 2")
 
-Problem: När vi trycker på space flera ggr blir det för många besvärjelser.
+Problem: När vi trycker på mellanslag flera ggr blir det för många besvärjelser.
 
 ###Kasta besvärjelse version 3
-När vi trycker space, kolla om vi är en klon innan vi skapar en klon.
+När vi trycker mellanslag, kolla om vi är en klon innan vi skapar en klon.
 
 Skapa en variabel som heter "is clone". Som gäller för bara denna sprite.
 
@@ -193,7 +205,7 @@ Flytta de delar som är lika i ett eget block.
 
 ![Moorg walk 3](images/moorg_move_version3.png "Moorg walk 3")
 
-## Lägg till gravitation
+## Gravitation
 Vi vill göra så att Ash ska kunna hoppa. 
 
 
