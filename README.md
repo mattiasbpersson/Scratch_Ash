@@ -13,10 +13,10 @@ Grafik: https://scratch.mit.edu/users/MaEk_Animations/
 #### Innehållsförteckning  
 [Förberedelser](#förberedelser)  
 [Ash](#ash)  
-[Kasta besvärjelse](#kasta_besvärjelse)  
-[Moorgerna kommer](#moorgerna_kommer)  
+[Kasta besvärjelse](#kasta-besvärjelse)  
+[Moorgerna kommer](#moorgerna-kommer)  
 [Gravitation](#gravitation)  
-[Extra saker](#extra_saker)  
+[Extra saker](#extra-saker)  
 
 ## Förberedelser
 * Hitta igen följande projekt och spara ner alla sprites i din ryggsäck: https://scratch.mit.edu/projects/142913300/
