@@ -251,6 +251,7 @@ I Ash spriten, skapa en ny variabel som heter HP (för alla sprites).
  
 ### Extra saker
 * En "Game Over" skärm
+* Cooldown på spells
 * Flygande Moorger
 * Kasta olika spells.
 * Ash besvärjelser ska falla mot marken då de kastas.
